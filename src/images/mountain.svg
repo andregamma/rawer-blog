@@ -1,0 +1,140 @@
+<svg id="Montanha" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="978" height="300" viewBox="0 0 978 653">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12, .cls-13, .cls-15, .cls-16, .cls-3, .cls-4, .cls-8, .cls-9 {
+        opacity: 0.37;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: #ae76cf;
+      }
+
+      .cls-6 {
+        filter: url(#filter-2);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-10 {
+        filter: url(#filter-3);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-12);
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="12.329"/>
+      <feFlood result="flood" flood-color="#6d3c8a"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="1431" y1="1084.13" x2="1431" y2="427" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b398c3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1198.301" y1="625.469" x2="1547.699" y2="1282.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b398c3"/>
+      <stop offset="1" stop-color="#ae76cf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1137.3" y1="850.875" x2="1486.7" y2="1508" xlink:href="#linear-gradient-2"/>
+    <filter id="filter-2" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="38.138" dy="78.195" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="9.592"/>
+      <feFlood result="flood" flood-color="#6d3c8a" flood-opacity="0.65"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="1657.065" y1="1094.09" x2="1657.065" y2="733" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="1532.251" y1="842.063" x2="1724.249" y2="1203.16" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="1501.941" y1="965.906" x2="1693.939" y2="1327" xlink:href="#linear-gradient-2"/>
+    <filter id="filter-3" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="46.103" dy="73.78" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="9.592"/>
+      <feFlood result="flood" flood-color="#6d3c8a" flood-opacity="0.65"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="1028.657" y1="1091.34" x2="1028.657" y2="802" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="928.663" y1="889.375" x2="1082.527" y2="1178.75" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-9" x1="904.428" y1="988.625" x2="1058.292" y2="1278" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-10" x1="1307.58" y1="1109.41" x2="1307.58" y2="893" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="1228.009" y1="958.344" x2="1343.091" y2="1174.78" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-12" x1="1204.856" y1="1032.59" x2="1319.924" y2="1249" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Montanha-2" data-name="Montanha" class="cls-1">
+    <path id="Polígono_1" data-name="Polígono 1" class="cls-2" d="M1431,426.987l338.01,657.133H1092.99Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar" data-name="Polígono 1 copiar" class="cls-3" d="M1373,625.469L1711.01,1282.6H1034.99Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar_2" data-name="Polígono 1 copiar 2" class="cls-4" d="M1312,850.865l338.01,657.125H973.994Z" transform="translate(-847 -427)"/>
+    <path id="Forma_1" data-name="Forma 1" class="cls-5" d="M1427,429.243L1257,1083H1093Z" transform="translate(-847 -427)"/>
+  </g>
+  <g id="Montanha_copiar" data-name="Montanha copiar" class="cls-6">
+    <path id="Polígono_1-2" data-name="Polígono 1" class="cls-7" d="M1657.07,733.006l167.95,361.084h-335.9Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar-2" data-name="Polígono 1 copiar" class="cls-8" d="M1628.25,842.069L1796.2,1203.15H1460.3Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar_2-2" data-name="Polígono 1 copiar 2" class="cls-9" d="M1597.94,965.92L1765.89,1327h-335.9Z" transform="translate(-847 -427)"/>
+    <path id="Forma_1-2" data-name="Forma 1" class="cls-5" d="M1655.08,734.245l-84.47,359.235h-81.49Z" transform="translate(-847 -427)"/>
+  </g>
+  <g id="Montanha_2" data-name="Montanha 2" class="cls-10">
+    <path id="Polígono_1-3" data-name="Polígono 1" class="cls-11" d="M1028.66,801.989l134.35,289.361h-268.7Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar-3" data-name="Polígono 1 copiar" class="cls-12" d="M1005.6,889.389l134.35,289.361h-268.7Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar_2-3" data-name="Polígono 1 copiar 2" class="cls-13" d="M981.357,988.64L1115.71,1278h-268.7Z" transform="translate(-847 -427)"/>
+    <path id="Forma_1-3" data-name="Forma 1" class="cls-5" d="M1027.07,802.982L959.5,1090.86H894.31Z" transform="translate(-847 -427)"/>
+  </g>
+  <g id="Montanha_2_copiar" data-name="Montanha 2 copiar" class="cls-1">
+    <path id="Polígono_1-4" data-name="Polígono 1" class="cls-14" d="M1307.59,892.99l128.39,216.41H1179.2Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar-4" data-name="Polígono 1 copiar" class="cls-15" d="M1285.56,958.357l128.39,216.413H1157.17Z" transform="translate(-847 -427)"/>
+    <path id="Polígono_1_copiar_2-4" data-name="Polígono 1 copiar 2" class="cls-16" d="M1262.39,1032.59L1390.78,1249H1133.99Z" transform="translate(-847 -427)"/>
+    <path id="Forma_1-4" data-name="Forma 1" class="cls-5" d="M1306.07,893.733L1241.5,1109.04h-62.3Z" transform="translate(-847 -427)"/>
+  </g>
+</svg>
