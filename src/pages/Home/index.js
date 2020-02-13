@@ -5,7 +5,7 @@ import Background from '../../images/bg.svg'
 import PurpleLayer from '../../images/purple-layer.svg'
 import WhiteLayer from '../../images/white-layer.svg'
 import GrayLayer from '../../images/gray-layer.svg'
-//import MountainLayer from '../../images/mountain.svg'
+import MountainLayer from '../../images/mountain.svg'
 import CloudsLayer from '../../images/clouds.svg'
 import Button from '../../components/Button';
 
@@ -21,13 +21,13 @@ export default class Home extends Component {
     }
   render() {
     return (
-        <div className="flex w-full h-full">
+        <div className="flex w-full h-full text-center md:text-left">
             <div className="hidden w-full h-full overflow-hidden md:block" style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover'}}>
                 <div className="absolute w-full h-full overflow-hidden">
-                    {/**<div className="absolute right-0 ml-40" style={{backgroundImage: `url(${MountainLayer})`, backgroundRepeat: 'no-repeat', width: '100%', height: '100%'}}></div>*/}
-                    <div className="inset-y-0 right-0 clouds" style={{backgroundImage: `url(${CloudsLayer})`, backgroundRepeat: 'repeat', width: '100%', height: '100%'}}></div>
+                    <div className="absolute" style={{backgroundImage: `url(${MountainLayer})`, backgroundRepeat: 'no-repeat', width: '100%', height: '45%', marginTop: '28%', marginLeft: '55%'}}></div>
+                    <div className="inset-y-0 right-0" style={{backgroundImage: `url(${CloudsLayer})`, backgroundRepeat: 'repeat', width: '100%', height: '100%'}}></div>
                 </div>
-                <button className="absolute right-0 focus:outline-none" onClick={() => this.changeTheme()}>
+                <button className="absolute right-0 h-full focus:outline-none" style={{width: '35%', marginTop: '-13%'}}>
                     <img src={Moon} alt=""/>
                 </button>
                     
@@ -37,11 +37,11 @@ export default class Home extends Component {
             </div>
       
             <div className="p-12 md:absolute md:w-2/5">
-                <h1 className="mt-32 text-5xl font-bold text-secondary-500 dark:text-white">Grupo Rawer</h1>
+                <h1 className="mt-32 text-3xl font-bold md:text-5xl text-secondary-500 dark:text-white">Grupo Rawer</h1>
                 <p className="mb-12 text-sm font-semibold leading-loose text-primary-500">
                 Rawer é um grupo digital que tem como finalidade desenvolver aplicações Web, Mobile e Desktop. 
                 </p>
-                <Button text="Contratar" bg="bg-gradient-l-primary" />
+                <Button href="mailto:contato@rawer.com.br" text="Contratar" bg="bg-gradient-l-primary" />
             </div>
         </div>
     );

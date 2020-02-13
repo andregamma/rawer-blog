@@ -26,11 +26,6 @@ body {
 }
 @tailwind components;
 
-.active {
-    @apply border-t-2 text-secondary-500 border-primary-500;
-}
-
-
 @tailwind utilities;
 
 .clouds {

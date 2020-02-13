@@ -144,13 +144,13 @@ module.exports = {
     repeatingLinearGradients: ['responsive'],
     repeatingRadialGradients: ['responsive'],
     repeatingConicGradients: ['responsive'],
-    backgroundColor: ['not-first', 'dark', 'dark-hover', 'dark-group-hover'],
-    borderColor: ['dark', 'dark-focus', 'dark-focus-within'],
-    textColor: ['dark', 'dark-hover', 'dark-active']
+    backgroundColor: ['responsive', 'not-first', 'dark', 'dark-hover', 'dark-group-hover'],
+    borderColor: ['responsive', 'dark', 'dark-focus', 'dark-focus-within'],
+    textColor: ['responsive', 'dark', 'dark-hover', 'dark-active'],
   },
   plugins: [
     require('tailwindcss-gradients')(),
     require('tailwindcss-pseudo')(),
-    require('tailwindcss-dark-mode')()
+    require('tailwindcss-dark-mode')(),
   ]
 }
